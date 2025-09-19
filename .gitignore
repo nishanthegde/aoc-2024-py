@@ -1,30 +1,16 @@
-# Python venv & cache
+# Python env & cache
 .venv/
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
+*.pyc
 
-# UV lockfile
-uv.lock
-
-# Byte-compiled / package files
-*.egg-info/
-*.egg
-.eggs/
-
-# Testing / coverage
+# Testing
 .pytest_cache/
 .coverage
-htmlcov/
 
-# Sublime Text
-*.sublime-workspace
-*.sublime-project
-
-# macOS
+# Editor (Sublime + macOS)
+*.sublime-*
 .DS_Store
 
-# Advent of Code puzzle inputs (keep folder but not files)
+# Advent of Code inputs (keep folder, ignore files)
 inputs/*
 !inputs/.gitkeep

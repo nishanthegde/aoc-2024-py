@@ -1,5 +1,5 @@
 [project]
-name = "aoc-2024"
+name = "aoc-2024-py"
 version = "0.1.0"
 requires-python = ">=3.13"
 
